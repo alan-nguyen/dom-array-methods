@@ -43,6 +43,13 @@ function sortByRichest() {
   updateDOM();
 }
 
+// Show only millionaires
+function showMillionaires() {
+  data = datda.filter((user) => user.money > 1000000);
+
+  updateDOM();
+}
+
 // Add new obj to data arr
 function addData(obj) {
   data.push(obj);
