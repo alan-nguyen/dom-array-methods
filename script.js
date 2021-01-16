@@ -66,3 +66,4 @@ function formatMoney(number) {
 // Event listeners
 addUserBtn.addEventListener('click', getRandomUser);
 doubleBtn.addEventListener('click', doubleMoney);
+sortBtn.addEventListener('click', sortByRichest);
